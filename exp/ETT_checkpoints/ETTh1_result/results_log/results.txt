@@ -1,0 +1,124 @@
+new:
+[2025-10-11_11-56-23] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl192_lr0.01_bs720_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=192,
+batch_size=720, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.4184, MAE: 0.4105  *****
+Denormalized Metrics:
+MSE: 9.2095, MAE: 1.5348
+Training Epochs: 17/100
+----------------------------------------
+[2025-10-11_11-57-52] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl96_lr0.01_bs720_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=96,
+batch_size=720, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.3791, MAE: 0.3882  *****
+Denormalized Metrics:
+MSE: 7.9647, MAE: 1.4165
+Training Epochs: 15/100
+----------------------------------------
+[2025-10-11_11-58-39] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl336_lr0.01_bs720_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=336,
+batch_size=720, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.4488, MAE: 0.4369  *****
+Denormalized Metrics:
+MSE: 10.0129, MAE: 1.6600
+Training Epochs: 12/100
+----------------------------------------
+[2025-10-11_12-02-14] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl720_lr0.01_bs648_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=720,
+batch_size=648, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.175,
+Normalized Metrics:
+MSE: 0.4771, MAE: 0.4763  *****
+Denormalized Metrics:
+MSE: 10.7239, MAE: 1.8541
+Training Epochs: 10/100
+----------------------------------------
+
+
+ori:
+[2025-10-11_12-07-39] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl720_lr0.01_bs648_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=720,
+batch_size=648, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.175,
+Normalized Metrics:
+MSE: 0.7636, MAE: 0.6528
+Denormalized Metrics:
+MSE: 15.0108, MAE: 2.4016
+Training Epochs: 9/100
+----------------------------------------
+[2025-10-11_12-10-34] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl336_lr0.01_bs720_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=336,
+batch_size=720, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.175,
+Normalized Metrics:
+MSE: 0.5569, MAE: 0.5257
+Denormalized Metrics:
+MSE: 10.9153, MAE: 1.8884
+Training Epochs: 6/100
+----------------------------------------
+[2025-10-11_12-11-36] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl96_lr0.01_bs720_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=96,
+batch_size=720, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.175,
+Normalized Metrics:
+MSE: 0.4328, MAE: 0.4425
+Denormalized Metrics:
+MSE: 9.2841, MAE: 1.6738
+Training Epochs: 9/100
+----------------------------------------
+[2025-10-11_12-11-55] Experiment: SCINet_decompose_ETTh1_ftM_sl96_ll0_pl192_lr0.01_bs720_hid4_s1_l3_dp0.275_invFalse_itr0
+Model Config: data=ETTh1, seq_len=96, pred_len=192,
+batch_size=720, patience=3, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=24, dropout=0.275,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.84, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.175,
+Normalized Metrics:
+MSE: 0.5022, MAE: 0.4863
+Denormalized Metrics:
+MSE: 10.3128, MAE: 1.7838
+Training Epochs: 6/100
+----------------------------------------

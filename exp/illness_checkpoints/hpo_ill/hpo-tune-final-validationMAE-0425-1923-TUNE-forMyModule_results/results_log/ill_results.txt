@@ -1,0 +1,125 @@
+================Test=================
+60pred:
+[2025-04-25_20-07-11] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl60_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=60,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=True, fft_mode=split
+middle_layer_count=2, activation=SELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.5282, MAE: 0.7804  **
+Denormalized Metrics:
+MSE: 4967618560.0000, MAE: 22876.3340
+Training Epochs: 89/200
+----------------------------------------
+[2025-04-25_20-08-23] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl60_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=60,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=False, fft_mode=split
+middle_layer_count=2, activation=SELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.6759, MAE: 0.8243
+Denormalized Metrics:
+MSE: 5315223552.0000, MAE: 25513.8359
+Training Epochs: 129/200
+----------------------------------------
+48pred:
+[2025-04-25_20-09-21] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl48_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=48,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=False, fft_mode=split
+middle_layer_count=2, activation=SELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.5546, MAE: 0.7836
+Denormalized Metrics:
+MSE: 4865757184.0000, MAE: 24752.6523
+Training Epochs: 121/200
+----------------------------------------
+[2025-04-25_20-10-58] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl48_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=48,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=True, fft_mode=split
+middle_layer_count=2, activation=ELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.3503, MAE: 0.7267  **
+Denormalized Metrics:
+MSE: 4240961280.0000, MAE: 21534.9609
+Training Epochs: 88/200
+----------------------------------------
+36pred:
+[2025-04-25_20-12-41] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl36_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=36,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=False, fft_mode=split
+middle_layer_count=2, activation=ELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.4939, MAE: 0.7466
+Denormalized Metrics:
+MSE: 3982063104.0000, MAE: 21767.9004
+Training Epochs: 83/200
+----------------------------------------
+[2025-04-25_20-23-06] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl36_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=36,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=True, fft_mode=split
+middle_layer_count=1, activation=ELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.4182, MAE: 0.7357  **
+Denormalized Metrics:
+MSE: 4326646272.0000, MAE: 22548.4785
+Training Epochs: 103/200
+----------------------------------------
+24pred:
+[2025-04-25_20-24-12] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl24_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=24,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=False, fft_mode=split
+middle_layer_count=1, activation=ELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.7477, MAE: 0.8265
+Denormalized Metrics:
+MSE: 5271263232.0000, MAE: 25178.6641
+Training Epochs: 56/200
+----------------------------------------
+[2025-04-25_20-27-24] Experiment: SCINet_decompose_illness_ftM_sl96_ll48_pl24_lr0.0009623093721304289_bs32_hid4_s1_l3_dp0.519858601937027_invFalse_itr0
+Model Config: data=illness, seq_len=96, pred_len=24,
+batch_size=32, patience=35, lr=0.0009623093721304289, lradj=1,
+hidden_size=4, kernel=5,
+dilation=1, window_size=12, dropout=0.519858601937027,
+positionalEcoding=False, RIN=True,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.28237992061139916, use_fft=True, fft_mode=split
+middle_layer_count=1, activation=SELU, dropout1d_v=0.20472947126520438,
+Normalized Metrics:
+MSE: 1.6434, MAE: 0.8168  **
+Denormalized Metrics:
+MSE: 5150345728.0000, MAE: 24957.9199
+Training Epochs: 81/200
+----------------------------------------

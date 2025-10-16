@@ -1,0 +1,131 @@
+new>>>>>>:
+[2025-10-10_22-20-43] Experiment: SCINet_decompose_weather_ftM_sl96_ll0_pl336_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=336,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.65, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.2525, MAE: 0.2777  *****
+Denormalized Metrics:
+MSE: 2140.5354, MAE: 13.8654
+Training Epochs: 7/100
+----------------------------------------
+ori>>>>>:
+[2025-10-10_22-22-16] Experiment: SCINet_decompose_weather_ftM_sl96_ll0_pl336_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=336,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.65, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.2764, MAE: 0.3144
+Denormalized Metrics:
+MSE: 2407.5591, MAE: 16.4331
+Training Epochs: 6/100
+----------------------------------------
+
+ori>>>>>:
+[2025-10-10_22-25-46] Experiment: SCINet_decompose_weather_ftM_sl96_ll0_pl720_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=720,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.65, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.3212, MAE: 0.3314
+Denormalized Metrics:
+MSE: 2330.3877, MAE: 16.5201
+Training Epochs: 6/100
+----------------------------------------
+new>>>>>:
+[2025-10-10_22-30-39] Experiment: SCINet_decompose_weather_ftM_sl96_ll0_pl720_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=720,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=False, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.65, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.3034, MAE: 0.3199   *****
+Denormalized Metrics:
+MSE: 2128.5654, MAE: 15.4873
+Training Epochs: 8/100
+----------------------------------------
+
+new>>>>>:
+[2025-10-15_19-30-26] Experiment: SCINet_decompose_weather_ftM_sl96_ll0_pl192_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=192,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=True, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.65, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.125,
+Normalized Metrics:
+MSE: 0.2123, MAE: 0.2468  *****
+Denormalized Metrics:
+MSE: 2415.2173, MAE: 14.1642
+Training Epochs: 11/100
+----------------------------------------
+ori>>>>>:
+[2025-10-15_20-40-04] Experiment: SCINet_weather_ftM_sl96_ll0_pl192_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=192,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=True, RIN=False,
+groups=1, levels=3, stacks=1, num_decoder_layer=1,
+fft_ratio=0.65, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.125,
+Normalized Metrics:
+MSE: 0.2320, MAE: 0.2827
+Denormalized Metrics:
+MSE: 2731.7949, MAE: 17.7657
+Training Epochs: 7/100
+----------------------------------------
+
+new>>>>>:
+[2025-10-15_19-17-30] Experiment: SCINet_decompose_weather_ftM_sl96_ll0_pl96_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=96,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=True, RIN=False,
+groups=1, levels=3, stacks=1,
+fft_ratio=0.65, use_fft=True, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.1750, MAE: 0.2016  *****
+Denormalized Metrics:
+MSE: 2035.2655, MAE: 12.1987
+Training Epochs: 13/100
+----------------------------------------
+ori>>>>>:
+[2025-10-15_20-44-24] Experiment: SCINet_weather_ftM_sl96_ll0_pl96_lr0.01_bs720_hid4_s1_l3_dp0.3_invFalse_itr0
+Model Config: data=weather, seq_len=96, pred_len=96,
+batch_size=720, patience=5, lr=0.01, lradj=1,
+hidden_size=4, kernel=5,
+dilation=3, window_size=36, dropout=0.3,
+positionalEcoding=True, RIN=False,
+groups=1, levels=3, stacks=1, num_decoder_layer=1,
+fft_ratio=0.65, use_fft=False, fft_mode=combined
+middle_layer_count=0, activation=Tanh, dropout1d_v=0.15,
+Normalized Metrics:
+MSE: 0.1772, MAE: 0.2242
+Denormalized Metrics:
+MSE: 2326.5601, MAE: 14.5745
+Training Epochs: 9/100
+----------------------------------------
